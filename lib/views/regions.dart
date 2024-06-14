@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import '../services/extension.dart';
 import '../services/helper.dart';
 
@@ -56,6 +58,7 @@ class _RegionsState extends State<Regions> {
   String? _selectedKabupaten;
   String? _selectedKecamatan;
   String? _selectedDesa;
+  String result = "";
 
   @override
   void initState() {
@@ -64,6 +67,7 @@ class _RegionsState extends State<Regions> {
     _selectedKabupaten = null;
     _selectedKecamatan = null;
     _selectedDesa = null;
+    result = "";
   }
 
   void _onProvinsiChanged(String? newValue) {
@@ -72,6 +76,8 @@ class _RegionsState extends State<Regions> {
       _selectedKabupaten = null;
       _selectedKecamatan = null;
       _selectedDesa = null;
+      result = "Provinsi: " +
+          widget.regions[newValue]['nama'].toString().toProperCase;
     });
   }
 
@@ -80,6 +86,12 @@ class _RegionsState extends State<Regions> {
       _selectedKabupaten = newValue;
       _selectedKecamatan = null;
       _selectedDesa = null;
+      result += "\nKabupaten: " +
+          widget.regions[_selectedProvinsi]['children'][_selectedKabupaten]
+                  ["nama"]
+              .toString()
+              .toProperCase
+              .removeWords(["Kab. ", "Kota"]);
     });
   }
 
@@ -87,12 +99,23 @@ class _RegionsState extends State<Regions> {
     setState(() {
       _selectedKecamatan = newValue;
       _selectedDesa = null;
+      result += "\nKecamatan: " +
+          widget.regions[_selectedProvinsi]['children'][_selectedKabupaten]
+                  ["children"][_selectedKecamatan]["nama"]
+              .toString()
+              .toProperCase;
     });
   }
 
   void _onDesaChanged(String? newValue) {
     setState(() {
       _selectedDesa = newValue;
+      result += "\nDesa: " +
+          widget.regions[_selectedProvinsi]['children'][_selectedKabupaten]
+                  ["children"][_selectedKecamatan]["children"][_selectedDesa]
+                  ["nama"]
+              .toString()
+              .toProperCase;
     });
   }
 
@@ -212,6 +235,7 @@ class _RegionsState extends State<Regions> {
                   : [],
             ),
             SizedBox(height: 20.0),
+            Text(result)
           ],
         ),
       ),

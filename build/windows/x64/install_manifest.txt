@@ -1,0 +1,11 @@
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/icudtl.dat
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/flutter_windows.dll
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/lib/models/regions/indonesia.json
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

@@ -1,0 +1,10 @@
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/CMakeFiles/regions.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/data/dev/flutter/pub.dev/regions/regions/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
