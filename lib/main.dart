@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Get.to(Api());
+                    Get.to(LoadRegions());
                   },
                   child: Text("DATA REGIONS")),
             ],

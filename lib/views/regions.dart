@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/extension.dart';
 import '../services/helper.dart';
 
-class Api extends StatelessWidget {
+class LoadRegions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
